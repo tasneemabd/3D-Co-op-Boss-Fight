@@ -1,96 +1,102 @@
+🕹️ 3D Co-op Boss Fight – Game Developer Test
+🎯 Objective
+Create a 3D cooperative (co-op) PC game where two local players collaborate to defeat an evil boss with multiple timed attack patterns, developed using Unity Engine.
 
-# 🕹️ 3D Co-op Boss Fight – Game Developer Test
-
-## 🎯 Objective
-
-Create a **3D cooperative (co-op) PC game** where **two local players** collaborate to defeat an **evil boss** with **multiple timed attack patterns**, developed using **Unity Engine**.
-
----
-
-## 🚀 Game Overview
-
+🚀 Game Overview
 In this action-packed boss battle, two players must dodge dynamic attacks, outmaneuver a powerful flying boss, and strategically return unexploded rockets to defeat it.
 
-- **Engine**: Unity (2022.332f1)
-- **Platform**: PC (Local Co-op)
-- **Control**: Same keyboard 
+Engine: Unity (2022.3.32f1)
 
----
+Platform: PC (Local Co-op)
 
-## 👾 Boss Mechanics
+Control: Same keyboard
 
-### 🧠 Movement
-- Flies and hovers dynamically, presenting a moving threat.
-- Continuously repositions to challenge players.
+👾 Boss Mechanics
+🧠 Movement
+Flies and hovers dynamically, presenting a moving threat.
 
-### 🔥 Attacks
-1. **Fire Flame**  
-   - Shoots a beam using Particle System.  
+Continuously repositions to challenge players.
 
-2. **Eagle Strike**  
-   - Boss disappears off-screen.
-   - Shadow appears indicating the impact zone.
-   - Boss slams vertically onto the shadow.  
+🔥 Attacks
+Fire Flame
 
-3. **Rocket Launch**
-   - Boss locks onto both players.
-   - Launches 3 rockets:  
-     - 2 explode on impact.  
-     - 1 remains unexploded and can be picked up and thrown back.  
+Shoots a beam using Particle System.
 
----
+Eagle Strike
 
-## 🧑‍🤝‍🧑 Player Mechanics
+Boss disappears off-screen.
 
-- **Local Co-op**:
-  - Player 1: `WASD` keys  
-  - Player 2: `Numpad` keys
+Shadow appears indicating the impact zone.
 
-- **Health**: 3 hearts per player.
+Boss slams vertically onto the shadow.
 
-- **Throw Mechanic**:
-  - Players can pick up the unexploded rocket and throw it back to damage the boss.
+Rocket Launch
 
-- **Win Condition**: Boss is hit by 3 returned rockets.
-- **Lose Condition**: Both players lose all hearts.
+Boss locks onto both players.
 
----
+Launches 3 rockets:
 
-## 🎮 Game Flow
+2 explode on impact.
 
-### 1. Main Menu
-  - Play
-  - Character Select
-  - Settings:
-    - Toggle Music
-    - Toggle SFX
+1 remains unexploded and can be picked up and thrown back.
 
-### 2. Transition Scene
-- Loading scene 
+🧑‍🤝‍🧑 Player Mechanics
+Local Co-op:
 
-### 3. Gameplay
-- UI includes heart icons for each player  
+Player 1: WASD keys
 
-### 4. End Game
-- Win or Lose screen
-- Options:
-  - Restart Fight
-  - Return to Main Menu
+Player 2: Numpad keys
 
----
+Health: 3 hearts per player.
 
+Throw Mechanic:
 
-## 🧩 Assets Used
+Players can pick up the unexploded rocket and throw it back to damage the boss.
 
-- Simple primitive shapes (e.g., Capsules, Cubes)
--  Realtime Rascals 
+Win Condition: Boss is hit by 3 returned rockets.
 
+Lose Condition: Both players lose all hearts.
 
----
+🎮 Game Flow
+1. Main Menu
+Play
 
-## 🗂️ Project Structure
+Character Select
 
-```
+Settings:
+
+Toggle Music
+
+Toggle SFX
+
+2. Transition Scene
+Loading scene
+
+3. Gameplay
+UI includes heart icons for each player
+
+4. End Game
+Win or Lose screen
+
+Options:
+
+Restart Fight
+
+Return to Main Menu
+
+🧩 Assets Used
+Simple primitive shapes (e.g., Capsules, Cubes)
+
+Realtime Rascals
+
+📁 Asset Download
+🔽 Download the full asset package used in this project from Google Drive:
+Download Assets from Google Drive :https://drive.google.com/file/d/1iN03U0KlodACPjFxo8rqqgXRuHEZAkUN/view?usp=sharing
+
+⚠️ Make sure to extract the contents into the Assets/ folder in your Unity project directory.
+
+🗂️ Project Structure
+
 Assets/
 ├── Scripts/
 ├── Prefabs/
@@ -99,31 +105,28 @@ Assets/
 ├── Art/ (optional)
 ├── Resources/
 └── SaveSystem/
-```
+📦 How to Build & Play
+Clone the repo:
 
----
 
-## 📦 How to Build & Play
+git clone https://github.com/tasneemabd/3D-Co-op-Boss-Fight.git
+Open with Unity 2022 or later.
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/tasneemabd/3D-Co-op-Boss-Fight.git
-   ```
-2. Open with **Unity 2022 or later**.
-3. Open the `MainMenu` scene.
-4. Build for **PC (Windows/Mac)** via `File > Build Settings`.
-5. Play using:
-   - Player 1: `WASD`
-   - Player 2: `Numpad`
-   - Optional: Gamepad
+Open the MainMenu scene.
 
----
+Build for PC (Windows/Mac) via File > Build Settings.
 
-🔗 **Repository URL**: https://github.com/tasneemabd/3D-Co-op-Boss-Fight.git
+Play using:
 
----
+Player 1: WASD
 
-## 👨‍💻 Developer Notes
+Player 2: Numpad
 
-- Built with performance and clarity in mind.
-- Mechanics are extensible for future gameplay expansion.
+Optional: Gamepad
+
+🔗 Repository URL: https://github.com/tasneemabd/3D-Co-op-Boss-Fight.git
+
+👨‍💻 Developer Notes
+Built with performance and clarity in mind.
+
+Mechanics are extensible for future gameplay expansion.
